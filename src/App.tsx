@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import AbFramework, { Experiment, EventData } from './ABFramework'; // імпортуємо твій клас
+import AbFramework, { Experiment, EventData } from './ABFramework';
 
 const experiments: Experiment[] = [
   {

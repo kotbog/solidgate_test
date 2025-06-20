@@ -34,7 +34,7 @@ export default class AbFramework {
 
     this.assignVariants();
     this.setupRetryMechanism();
-    this.clearQueue(); // Перша спроба одразу
+    this.clearQueue();
   }
 
   assignVariants(): void {
